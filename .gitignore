@@ -1,0 +1,45 @@
+# CMake build directories and generated files
+/build/
+/build-*/
+/out/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/build.ninja
+**/rules.ninja
+**/*.cmake
+
+# CMake FetchContent dependencies
+**/_deps/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled binaries and intermediate files
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+
+# JUCE generated files
+JuceLibraryCode/
+**/JuceLibraryCode/
+
+# Build and tool logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
