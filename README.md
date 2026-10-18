@@ -76,19 +76,3 @@ Run the Visual Studio-generator build with:
 .\build-vs\FiltroEstabilidadTest_artefacts\Release\FiltroEstabilidadTest.exe
 ```
 
-## Create a Git repository
-
-Run these commands once from the project root:
-
-```powershell
-git init
-git branch -M main
-git add CMakeLists.txt Main.cpp README.md .gitignore
-git commit -m "Initial commit"
-```
-
-Check the repository status with:
-
-```powershell
-git status
-```
