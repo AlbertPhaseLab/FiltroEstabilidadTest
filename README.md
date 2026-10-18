@@ -92,34 +92,3 @@ Check the repository status with:
 ```powershell
 git status
 ```
-
-## Create and push a GitHub repository
-
-1. Sign in to GitHub.
-2. Create a new repository.
-3. Use a repository name such as `FiltroEstabilidadTest`.
-4. Do not add a README, `.gitignore`, or license on GitHub if those files already exist locally.
-5. Copy the repository HTTPS or SSH URL.
-
-Connect the local repository to GitHub, replacing the URL with the one from your repository:
-
-```powershell
-git remote add origin https://github.com/AlbertPhaseLab/FiltroEstabilidadTest.git
-git push -u origin main
-```
-
-Verify the remote with:
-
-```powershell
-git remote -v
-```
-
-For later changes:
-
-```powershell
-git add .
-git commit -m "Describe the change"
-git push
-```
-
-If GitHub requests authentication for an HTTPS remote, use GitHub authentication or a personal access token instead of an account password. SSH authentication can also be used by setting the remote to an SSH URL.
